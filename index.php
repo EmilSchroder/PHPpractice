@@ -1,5 +1,6 @@
-<? php
+<?php
 
-echo "what up?";
+$word = trim(fgets(STDIN));
+fwrite(STDOUT, $word."\n");
 
 ?>
